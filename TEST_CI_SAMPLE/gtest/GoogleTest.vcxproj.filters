@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="testCode">
+      <UniqueIdentifier>{73a779f4-6754-4f83-aafe-085122599efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program">
+      <UniqueIdentifier>{bf53c79e-927a-43f6-9193-164b5a3a1536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gmock_fused-src">
+      <UniqueIdentifier>{2c118ba9-3550-4463-8090-981fa8aeab51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gmock_fused-src\gmock">
+      <UniqueIdentifier>{7165ba68-b321-41ba-82ae-437d17fd4a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gmock_fused-src\gtest">
+      <UniqueIdentifier>{0002b28f-92f8-4d9b-903c-70827d603f6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="testCode\testmain.cpp">
+      <Filter>testCode</Filter>
+    </ClCompile>
+    <ClCompile Include="gmock_fused-src\gmock-gtest-all.cc">
+      <Filter>gmock_fused-src</Filter>
+    </ClCompile>
+    <ClCompile Include="testCode\testCode1.cpp">
+      <Filter>testCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gmock_fused-src\gmock\gmock.h">
+      <Filter>gmock_fused-src\gmock</Filter>
+    </ClInclude>
+    <ClInclude Include="gmock_fused-src\gtest\gtest.h">
+      <Filter>gmock_fused-src\gtest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
